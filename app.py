@@ -21,4 +21,8 @@ st.subheader("2. Graphique : Corrélation Sommeil vs Notes")
 fig, ax = plt.subplots()
 ax.scatter(df['Heures_Sommeil'], df['Note_Moyenne'], color='blue')
 ax.set_xlabel("Heures de sommeil par nuit")
-'heures_sommeil':[4,5,6,6.5,7,7.5,8,8.5,9]
+data = {
+'heures_sommeil': [4,5,6,6.5,7,7.5,8,8.5,9],
+'note_moyenne': [8,10,11,12,14,15,16,15,14]
+}
+df = pd.DataFrame(data)
