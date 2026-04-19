@@ -7,7 +7,7 @@ st.set_page_config(page_title="TP INF232 - Sommeil vs Notes", layout="wide")
 st.title("TP INF232 : Analyse de la relation Sommeil / Notes")
 st.write("Cette application Streamlit analyse l'impact du temps de sommeil sur les notes des étudiants.")
 
-Données d'exemple pour le TP
+#Données d'exemple pour le TP
 data = {
     'Heures_Sommeil': [4, 5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 10],
     'Note_Moyenne': [8, 9.5, 11, 12, 14, 15, 16, 15.5, 14, 12.5]
